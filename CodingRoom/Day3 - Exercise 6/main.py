@@ -28,13 +28,13 @@ print("Your mission is to find the treasure.")
 #Write your code below this line 👇
 
 FirstQuestion = "You're at a cross road. Where do you want to go? \n Type \"left\" or \"right\". "
-FirstAnswer = input(FirstQuestion)
+FirstAnswer = input(FirstQuestion).lowe()
 SecondQuestionLeft = "\n ~~~ \n ~~~ \n ~~~ \nYou're get into lake. you have to cross the lake. Do you want to wait boat comming or you want to  swim? \n Type \"wait\" or \"swim\". "
 SecondQuestionRight = "You fell into a hole. "
-SecondAnswer = input(SecondQuestionLeft)
+SecondAnswer = input(SecondQuestionLeft).lower()
 ThirdQuestionWait = ("\n Finally you get in to rainbow gate. Wich door do you want to open? \n Type \"red\", \"blue\" or \"yellow\". ")
 ThirdQuestionSwim = ("You get bite by aligator. ")
-ThirdAnswer = input(ThirdQuestionWait)
+ThirdAnswer = input(ThirdQuestionWait).lower()
 FourthQuestionYellow = "\n You did it, you get the crown and medal. "
 FourthQuestionRed = "You get attack by Bear. "
 FourthQuestionBlue = "You get attack by Rabbit. "
