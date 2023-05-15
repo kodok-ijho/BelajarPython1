@@ -57,4 +57,3 @@ if FirstAnswer == "left":
         print(ThirdQuestionSwim, GameOver)
 elif FirstAnswer == "right":
     print(SecondQuestionRight, GameOver)
-    
