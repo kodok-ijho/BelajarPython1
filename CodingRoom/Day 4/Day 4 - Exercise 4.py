@@ -31,7 +31,7 @@ scissors = '''
 #Write your code below this line 👇
 list_games = [rock,paper,scissors]
 
-human_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors"))
+human_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors\n2"))
 print(list_games[human_choice])
 
 computer_choice = random.randint(0, 2)
