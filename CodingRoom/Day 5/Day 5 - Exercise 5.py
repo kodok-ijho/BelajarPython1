@@ -25,5 +25,5 @@ for symbol in range(nr_symbols):
 for number in range(nr_numbers):
     password = password + numbers[random.randint(0, len(numbers)-1)]
 
-password.
+#password.
 print(password)
