@@ -31,7 +31,7 @@ scissors = '''
 #Write your code below this line 👇
 list_games = [rock,paper,scissors]
 
-human_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors\n2"))
+human_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors\n"))
 print(list_games[human_choice])
 
 computer_choice = random.randint(0, 2)
@@ -49,11 +49,11 @@ if human_choice == 2 and computer_choice == 1:
 
 # Human Lose
 if human_choice == 0 and computer_choice == 1:
-    result = 1
+    result = 2
 if human_choice == 1 and computer_choice == 2:
-    result = 1
+    result = 2
 if human_choice == 2 and computer_choice == 0:
-    result = 1
+    result = 2
 
 if result == 0:
     print("Draw")
