@@ -27,3 +27,4 @@ for number in range(nr_numbers):
 
 #password.
 print(password)
+print("test")
