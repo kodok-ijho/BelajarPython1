@@ -5,4 +5,4 @@ b = int(b)
 
 add = a+b
 
-print("additional : " + add)
+print("additional : " + str(add))
