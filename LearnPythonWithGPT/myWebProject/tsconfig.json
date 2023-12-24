@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "outDir": "./dist",
+      "rootDir": "./home/denmasganteng/Documents/BelajarPython/BelajarPython1/LearnPythonWithGPT/myWebProject",  // Set the correct root directory path
+      "strict": true
+    }
+  }
+  
